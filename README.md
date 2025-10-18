@@ -6,6 +6,7 @@ Included projects
 
 1. Secret Auction: a simple auction program (projects/Secret Auction/main.py)
 2. Find leap year
+3. Calculator Program
 
 ## Secret Auction Program
 
@@ -43,3 +44,30 @@ False
 ```
 
 See `leap_year.py` for the implementation.
+
+## Calculator Program
+
+- File: `calculator.py`
+- Description: A small interactive calculator that asks the user for two numbers and an operator (+, -, \*, /), then prints the result.
+
+Notes:
+
+- Inputs are parsed as integers. Division (/) will produce a floating-point result when needed.
+- This script uses the Python `match` statement and requires Python 3.10 or later.
+
+How to run:
+
+```cmd
+python calculator.py
+```
+
+Example interaction:
+
+```
+Enter the first number: 12
+Enter the second number: 5
+Enter the operator: /
+2.4
+```
+
+See `calculator.py` for the implementation.
