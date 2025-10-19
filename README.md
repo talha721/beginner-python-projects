@@ -4,9 +4,10 @@ This folder contains small beginner-friendly Python projects used for learning a
 
 Included projects
 
-1. Secret Auction: a simple auction program (projects/Secret Auction/main.py)
-2. Find leap year
-3. Calculator Program
+1. [Secret Auction](#secret-auction-program): a simple auction program using dictionaries
+2. [Find leap year program](#leap-year-program)
+3. [Calculator Program](#calculator-program)
+4. [BlackJack Game](#blackjack-game)
 
 ## Secret Auction Program
 
@@ -71,3 +72,30 @@ Enter the operator: /
 ```
 
 See `calculator.py` for the implementation.
+
+## BlackJack Game
+
+- File: `BlackJack Game/main.py`
+- Description: A simple console-based Blackjack (21) game where one or more players play against the dealer. The implementation includes dealing, hitting, standing, and basic bust/win logic.
+
+Notes / Requirements:
+
+- Uses the console for input/output. Recommended to run in a terminal that supports standard input.
+- No external dependencies; runs with Python 3.8+. If the implementation uses newer syntax (like `match`), use Python 3.10+.
+
+How to run:
+
+```cmd
+python "BlackJack Game\main.py"
+```
+
+Quick example interaction (player input shown after >):
+
+```
+Dealt: Player: [10, 7] (17), Dealer: [9, ?]
+Hit or Stand? > Stand
+Dealer reveals and plays: Dealer: [9, 8] (17)
+Result: Push / Player wins / Dealer wins
+```
+
+See `BlackJack Game/main.py` for the implementation.
